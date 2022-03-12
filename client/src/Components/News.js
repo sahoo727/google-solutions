@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import Cards from './news/cards'
+import Cards from './news/Cards'
 import db from '../firebase_db';
 
 

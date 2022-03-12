@@ -1,7 +1,7 @@
 import React from 'react'
-// import First from './images/deskyop.png'
-// import Second from './images/Screenshot 2021-12-06 163856.png'
-// import Third from './images/Profile.jpg'
+// import First from '../images/deskyop.png'
+// import Second from '../images/Screenshot 2021-12-06 163856.png'
+import Third from '../images/glass1.jpeg'
 import {Card, Button} from 'react-bootstrap'
 //import CardGroup from 'react-bootstrap/CardGroup'
 import Row from 'react-bootstrap/Row'
@@ -15,10 +15,54 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
     // const firebaseApp = firebase.apps[0];
     console.log(Title1)
     return(
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+      // <Row xs={1} md={3} className="Container" >
+      //   <Col>
+      //     <Card style={{ width: '18rem' }} >
+      //     <Card.Img variant="top" src={Third} />
+      //     <Card.Body>
+      //       <Card.Title>{Title1}</Card.Title>
+      //       <Card.Text>
+      //         {Content1}
+      //       </Card.Text>
+      //       <Button variant="primary">Go somewhere</Button>
+      //     </Card.Body>
+      //     </Card>
+      //   </Col>
+      //   <Col>
+      //     <Card style={{ width: '18rem' }}>
+      //     <Card.Img variant="top" src={Third} />
+      //     <Card.Body>
+      //       <Card.Title>{Title2}</Card.Title>
+      //       <Card.Text>
+      //         {Content2}
+      //       </Card.Text>
+      //       <Button variant="primary">Go somewhere</Button>
+      //     </Card.Body>
+      //     </Card>
+      //   </Col>
+      //   <Col>
+      //     <Card style={{ width: '18rem' }}>
+      //     <Card.Img variant="top" src={Third} />
+      //     <Card.Body>
+      //       <Card.Title>{Title3}</Card.Title>
+      //       <Card.Text>
+      //         {Content3}
+      //       </Card.Text>
+      //       <Button variant="primary">Go somewhere</Button>
+      //     </Card.Body>
+      //     </Card>
+      //   </Col>
+        
+        
+      // </Row>
+
+
+
+      <div xs={1} md={3} className="container" >
+        <div className='row'>
+        <div className='col'>
+          <Card style={{ width: '18rem' }} >
+          <Card.Img variant="top" src={Third} />
           <Card.Body>
             <Card.Title>{Title1}</Card.Title>
             <Card.Text>
@@ -27,10 +71,10 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
           </Card>
-        </Col>
-        <Col>
+        </div>
+        <div className='col'>
           <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={Third} />
           <Card.Body>
             <Card.Title>{Title2}</Card.Title>
             <Card.Text>
@@ -39,10 +83,10 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
           </Card>
-        </Col>
-        <Col>
+        </div>
+        <div className='col'>
           <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={Third} />
           <Card.Body>
             <Card.Title>{Title3}</Card.Title>
             <Card.Text>
@@ -51,13 +95,21 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
           </Card>
-        </Col>
+        </div>
         
-        
-      </Row>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
       // console.log(Title),
       // <Card style={{ width: '18rem' }}>
-      //     <Card.Img variant="top" src="holder.js/100px180" />
+      //     <Card.Img variant="top" src={Third} />
       //     <Card.Body>
       //       <Card.Title>{Title}</Card.Title>
       //       <Card.Text>

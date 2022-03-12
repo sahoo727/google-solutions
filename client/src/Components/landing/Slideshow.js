@@ -1,7 +1,7 @@
 import React from 'react'
-import First from './images/deskyop.png'
-import Second from './images/Screenshot 2021-12-06 163856.png'
-import Third from './images/Profile.jpg'
+import First from '../images/deskyop.png'
+import Second from '../images/Screenshot 2021-12-06 163856.png'
+import Third from '../images/Profile.jpg'
 import {Carousel} from 'react-bootstrap'
 
 

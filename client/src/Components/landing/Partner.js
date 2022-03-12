@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import First from './images/deskyop.png'
-import Second from './images/Screenshot 2021-12-06 163856.png'
-import Third from './images/Profile.jpg'
+import First from '../images/deskyop.png'
+import Second from '../images/Screenshot 2021-12-06 163856.png'
+import Third from '../images/Profile.jpg'
 import './Partner.css'
 
 export default class Partner extends Component {
@@ -10,7 +10,7 @@ export default class Partner extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
