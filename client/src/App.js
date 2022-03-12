@@ -1,9 +1,10 @@
 import Landing from './Components/Landing';
 import News from './Components/News';
+import Partner from './Components/landing/Partner';
+import Mission from './Components/Mission';
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Partner from './Components/landing/Partner';
 import Cards from './Components/news/Cards';
 
 
@@ -12,7 +13,9 @@ function App() {
     <div className="App">
       <Landing/>
       <Partner/>
+      <Mission/>
       <News/>
+
       
     </div>
   );

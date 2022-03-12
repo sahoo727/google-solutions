@@ -58,7 +58,8 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
 
 
 
-      <div xs={1} md={3} className="container" >
+      <div xs={1} md={3} className="container shadow p-3 mb-5 bg-white rounded" >
+        <div className='row h2'><div className='col'><u>Latest News</u></div></div>
         <div className='row'>
         <div className='col'>
           <Card style={{ width: '18rem' }} >

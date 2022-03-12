@@ -1,0 +1,9 @@
+.custom_outer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.custom_inner {
+  margin: auto;
+}
