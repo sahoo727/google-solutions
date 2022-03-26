@@ -6,6 +6,7 @@ import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Cards from './Components/news/Cards';
+import News_Add from './Components/Admin/News_Add';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Partner/>
       <Mission/>
       <News/>
+      <News_Add/>
 
       
     </div>

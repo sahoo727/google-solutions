@@ -10,7 +10,7 @@ import firebase from 'firebase/compat/app';
 
 
 
-function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
+function Cards({Title1,Title2,Title3,Content1,Content2,Content3,Image1,Image2,Image3}){
     
     // const firebaseApp = firebase.apps[0];
     console.log(Title1)
@@ -63,7 +63,7 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
         <div className='row'>
         <div className='col'>
           <Card style={{ width: '18rem' }} >
-          <Card.Img variant="top" src={Third} />
+          <Card.Img variant="top" src={Image1} />
           <Card.Body>
             <Card.Title>{Title1}</Card.Title>
             <Card.Text>
@@ -75,7 +75,7 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
         </div>
         <div className='col'>
           <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={Third} />
+          <Card.Img variant="top" src={Image2} />
           <Card.Body>
             <Card.Title>{Title2}</Card.Title>
             <Card.Text>
@@ -87,7 +87,7 @@ function Cards({Title1,Title2,Title3,Content1,Content2,Content3}){
         </div>
         <div className='col'>
           <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={Third} />
+          <Card.Img variant="top" src={Image3} />
           <Card.Body>
             <Card.Title>{Title3}</Card.Title>
             <Card.Text>

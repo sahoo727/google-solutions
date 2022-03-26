@@ -30,11 +30,12 @@ function News() {
   },[])
 
   console.log(blogs)
+  // console.log(blogs[1]?.data.Image_url)
   var doc_arr = [];
   var arr_length = 0;
   // db.collection('News DB').get().then(element => {arr_length = element.docs.length; console.log(arr_length)});
   return (
-    <Cards Title1={blogs[0]?.data.Title} Title2={blogs[1]?.data.Title} Title3={blogs[2]?.data.Title} Content1={blogs[0]?.data.Content} Content2={blogs[1]?.data.Content} Content3={blogs[2]?.data.Content} />
+    <Cards Title1={blogs[0]?.data.Title} Title2={blogs[1]?.data.Title} Title3={blogs[2]?.data.Title} Content1={blogs[0]?.data.Content} Content2={blogs[1]?.data.Content} Content3={blogs[2]?.data.Content} Image1={blogs[0]?.data.Image_url} Image2={blogs[1]?.data.Image_url} Image3={blogs[2]?.data.Image_url} />
     
     // <div>
 		// {
